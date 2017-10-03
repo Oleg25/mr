@@ -1,0 +1,19 @@
+version: '2'
+services:
+    jogging-app:
+        image: jogging
+        environment:
+            - SPRING_PROFILES_ACTIVE=prod,swagger
+            - SPRING_DATASOURCE_URL=jdbc:postgresql://jogging-postgresql:5432/jogging
+            - citek_SLEEP=10 # gives time for the database to boot before the application
+            - SPRING_DATA_ELASTICSEARCH_CLUSTER_NODES=jogging-elasticsearch:9300
+        ports:
+            - 8080:8080
+    jogging-postgresql:
+        extends:
+            file: postgresql.yml
+            service: jogging-postgresql
+    jogging-elasticsearch:
+        extends:
+            file: elasticsearch.yml
+            service: jogging-elasticsearch
