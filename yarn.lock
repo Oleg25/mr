@@ -853,6 +853,12 @@ circular-json@^0.3.1:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/circular-json/-/circular-json-0.3.3.tgz#815c99ea84f6809529d2f45791bdf82711352d66"
 
+citek-core@1.3.5:
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/citek-core/-/citek-core-1.3.5.tgz#fb42e8d8c020ea95a06d85d2f8bba404747fe8bd"
+  dependencies:
+    lodash "4.17.4"
+
 clap@^1.0.9:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/clap/-/clap-1.2.3.tgz#4f36745b32008492557f46412d66d50cb99bce51"
@@ -2471,13 +2477,13 @@ generator-citek@4.9.0:
   dependencies:
     chalk "2.1.0"
     cheerio "0.22.0"
+    citek-core "1.3.5"
     commander "2.11.0"
     didyoumean "1.2.1"
     ejs "2.5.7"
     glob "7.1.2"
     html-wiring "1.2.0"
     insight "0.8.4"
-    citek-core "1.3.5"
     js-yaml "3.10.0"
     lodash "4.17.4"
     meow "3.7.0"
@@ -2943,7 +2949,7 @@ gulp-inject@4.1.0:
     stream-to-array "^2.3.0"
     through2 "^2.0.1"
 
-gulp-match@^1.0.2, gulp-match@^1.0.3:
+gulp-match@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/gulp-match/-/gulp-match-1.0.3.tgz#91c7c0d7f29becd6606d57d80a7f8776a87aba8e"
   dependencies:
@@ -3525,8 +3531,8 @@ inherits@2, inherits@2.0.3, inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.0, i
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
 
 ini@^1.3.4, ini@~1.3.0:
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.4.tgz#0537cb79daf59b59a1a517dff706c86ec039162e"
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.7.tgz#a09363e1911972ea16d7a8851005d84cf09a9a84"
 
 inquirer@^0.10.0:
   version "0.10.1"
@@ -4016,12 +4022,6 @@ jasmine@^2.4.1, jasmine@^2.5.3:
 jasminewd2@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/jasminewd2/-/jasminewd2-2.1.0.tgz#da595275d1ae631de736ac0a7c7d85c9f73ef652"
-
-citek-core@1.3.5:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/citek-core/-/citek-core-1.3.5.tgz#fb42e8d8c020ea95a06d85d2f8bba404747fe8bd"
-  dependencies:
-    lodash "4.17.4"
 
 jpegtran-bin@^3.0.0:
   version "3.2.0"
@@ -7128,7 +7128,7 @@ tempfile@^2.0.0:
     temp-dir "^1.0.0"
     uuid "^3.0.1"
 
-ternary-stream@^2.0.0, ternary-stream@^2.0.1:
+ternary-stream@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/ternary-stream/-/ternary-stream-2.0.1.tgz#064e489b4b5bf60ba6a6b7bc7f2f5c274ecf8269"
   dependencies:
