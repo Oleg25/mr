@@ -853,6 +853,12 @@ circular-json@^0.3.1:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/circular-json/-/circular-json-0.3.3.tgz#815c99ea84f6809529d2f45791bdf82711352d66"
 
+citek-core@1.3.5:
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/citek-core/-/citek-core-1.3.5.tgz#fb42e8d8c020ea95a06d85d2f8bba404747fe8bd"
+  dependencies:
+    lodash "4.17.4"
+
 clap@^1.0.9:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/clap/-/clap-1.2.3.tgz#4f36745b32008492557f46412d66d50cb99bce51"
@@ -2471,13 +2477,13 @@ generator-citek@4.9.0:
   dependencies:
     chalk "2.1.0"
     cheerio "0.22.0"
+    citek-core "1.3.5"
     commander "2.11.0"
     didyoumean "1.2.1"
     ejs "2.5.7"
     glob "7.1.2"
     html-wiring "1.2.0"
     insight "0.8.4"
-    citek-core "1.3.5"
     js-yaml "3.10.0"
     lodash "4.17.4"
     meow "3.7.0"
@@ -2943,7 +2949,7 @@ gulp-inject@4.1.0:
     stream-to-array "^2.3.0"
     through2 "^2.0.1"
 
-gulp-match@^1.0.2, gulp-match@^1.0.3:
+gulp-match@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/gulp-match/-/gulp-match-1.0.3.tgz#91c7c0d7f29becd6606d57d80a7f8776a87aba8e"
   dependencies:
@@ -4016,12 +4022,6 @@ jasmine@^2.4.1, jasmine@^2.5.3:
 jasminewd2@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/jasminewd2/-/jasminewd2-2.1.0.tgz#da595275d1ae631de736ac0a7c7d85c9f73ef652"
-
-citek-core@1.3.5:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/citek-core/-/citek-core-1.3.5.tgz#fb42e8d8c020ea95a06d85d2f8bba404747fe8bd"
-  dependencies:
-    lodash "4.17.4"
 
 jpegtran-bin@^3.0.0:
   version "3.2.0"
@@ -7128,7 +7128,7 @@ tempfile@^2.0.0:
     temp-dir "^1.0.0"
     uuid "^3.0.1"
 
-ternary-stream@^2.0.0, ternary-stream@^2.0.1:
+ternary-stream@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/ternary-stream/-/ternary-stream-2.0.1.tgz#064e489b4b5bf60ba6a6b7bc7f2f5c274ecf8269"
   dependencies:
@@ -7861,8 +7861,8 @@ xtend@^3.0.0, xtend@~3.0.0:
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-3.0.0.tgz#5cce7407baf642cba7becda568111c493f59665a"
 
 y18n@^3.2.0, y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
 
 yallist@^2.1.2:
   version "2.1.2"
